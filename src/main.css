@@ -1,0 +1,79 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.iconfont {
+    font-size: 3.5vh;
+    color: rgba(166, 166, 166, 1);
+
+}
+
+.mint-tab-item-icon {
+    width: 3.5vh;
+    height: 3.5vh;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: "PingFang SC",
+        "Microsoft YaHei",
+        "微软雅黑",
+        "Microsoft JhengHei",
+        "黑体";
+    color: #383838;
+    background-color: #fff;
+    font-size: 3vw;
+}
+
+.tlmiddle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+/* .clearFix::after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    content: "";
+} */
+body,
+div,
+span,
+header,
+footer,
+nav,
+section,
+ul,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+textarea,
+button,
+input,
+select {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+
+    /* &:hover {
+        outline: none;
+    } */
+}
